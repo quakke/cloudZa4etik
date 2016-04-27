@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloudscloudsclouds", "cloudscloudsclouds\cloudscloudsclouds.csproj", "{3D55DCA8-F9D8-43C8-A8F2-3D0A6CA5F8AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FFB545A5-A3B4-4E98-9DFD-DE661712F9EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{93A79E6C-CD91-4FD1-B70E-AD0D57DC8EA6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{6A151BBE-EE58-4139-A8FA-B1C1537644DF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\cloudscloudsclouds.json = PublishScripts\Templates\cloudscloudsclouds.json
+		PublishScripts\Templates\cloudscloudsclouds.param.dev.json = PublishScripts\Templates\cloudscloudsclouds.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D55DCA8-F9D8-43C8-A8F2-3D0A6CA5F8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D55DCA8-F9D8-43C8-A8F2-3D0A6CA5F8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D55DCA8-F9D8-43C8-A8F2-3D0A6CA5F8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D55DCA8-F9D8-43C8-A8F2-3D0A6CA5F8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93A79E6C-CD91-4FD1-B70E-AD0D57DC8EA6} = {FFB545A5-A3B4-4E98-9DFD-DE661712F9EB}
+		{6A151BBE-EE58-4139-A8FA-B1C1537644DF} = {FFB545A5-A3B4-4E98-9DFD-DE661712F9EB}
+	EndGlobalSection
+EndGlobal
